@@ -113,16 +113,8 @@ works across the OCA series in use.
 
 ## MCP servers and tooling
 
-Skills that need live data usually pair with an MCP server.
-
-- [erpipe-org/mcp-odoo][erpipe] - MIT. MCP server for AI agents with gated
-  writes and multi-instance support, plus a hosted option.
-- [marcfargas/odoo-toolbox][marcfargas] - LGPL-3.0. TypeScript SDK, CLI, skill
-  modules and an MCP server for connecting to Odoo; CI-tested against versions
-  17 and 18.
-- [dannyg-sys/odoo-mcp-server][dannyg] - MIT. 19-tool MCP server for local
-  development environments: server control, module management, testing and
-  database operations, with `odoo-manage` and `odoo-stream` skills.
+Skills that need live data usually pair with an MCP server. For MCP servers
+and tooling for Odoo, see [Awesome Odoo MCP][awesome-odoo-mcp].
 
 ## Installing skills
 
@@ -188,9 +180,7 @@ This list is released under [CC0 1.0 Universal](LICENSE).
 [stanley]: https://github.com/stanleykao72/claude-code-spec-workflow-odoo
 [mindrally]: https://github.com/Mindrally/skills
 [erpipe-skills]: https://github.com/erpipe-org/mcp-odoo/tree/main/skills
-[erpipe]: https://github.com/erpipe-org/mcp-odoo
-[marcfargas]: https://github.com/marcfargas/odoo-toolbox
-[dannyg]: https://github.com/dannyg-sys/odoo-mcp-server
+[awesome-odoo-mcp]: https://github.com/weinni2000/awesome-odoo-mcp#readme
 [claude-code]: https://docs.claude.com/en/docs/claude-code/skills
 [codex]: https://github.com/openai/codex
 [copilot-cli]: https://github.com/github/copilot-cli
