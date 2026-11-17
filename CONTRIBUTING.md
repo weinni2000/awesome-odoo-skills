@@ -43,8 +43,9 @@ the natural companion of a skill pack.
    coverage* table.
 5. If the pack fills a gap in *Which skill should I use?*, add the task there.
 6. Keep every line at 88 characters or fewer.
-7. Run `npx awesome-lint` locally before opening a pull request; CI runs the
-   same check on every pull request and push to `main`.
+7. Run `pre-commit install` once, then `pre-commit run --all-files`. The
+   awesome-lint hook runs on every commit that touches `README.md`; CI runs the
+   same check. Without pre-commit, `npx awesome-lint` gives the same result.
 
 ## Style
 
