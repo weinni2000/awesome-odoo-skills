@@ -43,6 +43,8 @@ the natural companion of a skill pack.
    coverage* table.
 5. If the pack fills a gap in *Which skill should I use?*, add the task there.
 6. Keep every line at 88 characters or fewer.
+7. Run `npx awesome-lint` locally before opening a pull request; CI runs the
+   same check on every pull request and push to `main`.
 
 ## Style
 
